@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState, useEffect } from "react";
-import { useDollarRate, CURRENCY_RATES_KEY, CurrencyRates, DEFAULT_RATES } from "../../../hooks/useDollarRate";
+import { useDollarRate, CURRENCY_RATES_KEY, CurrencyRates, DEFAULT_RATES } from "../../hooks/useDollarRate";
 
 const API = process.env.NEXT_PUBLIC_API_URL || "http://localhost:3333/api";
 
